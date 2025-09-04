@@ -1,0 +1,29 @@
+.nav-sbeam {
+  background-color: #171d25;
+}
+
+.nav-sbeam a {
+  color: #dcdcdf;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo-sbeam {
+  width: auto;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 60%;
+}
+
+body {
+  background: linear-gradient(to bottom, #29445b, #1b2838);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #dcdcdf;
+  font-family: "Arial", "Helvetica", "Verdana", sans-serif;
+}
