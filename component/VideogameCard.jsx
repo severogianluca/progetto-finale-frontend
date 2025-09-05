@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 function VideogameCard({ videogame }) {
     const { id, name, description, fotoUrl, price } = videogame;
 
