@@ -8,6 +8,12 @@
   text-decoration: none;
 }
 
+.nav-sbeam a:hover {
+  color: #1a9fff;
+  text-decoration-color: #1a9fff;
+  border-bottom: 3px solid #1a9fff;
+}
+
 .logo-sbeam {
   width: auto;
   height: 50px;
@@ -16,7 +22,7 @@
 }
 
 .container {
-  max-width: 60%;
+  max-width: 60% ;
 }
 
 body {
@@ -26,4 +32,99 @@ body {
   padding: 0;
   color: #dcdcdf;
   font-family: "Arial", "Helvetica", "Verdana", sans-serif;
+}
+
+/* .text-color{
+  color: #dcdcdf;
+} */
+video {
+  border-radius: 0;
+  border: none;
+}
+
+.card-color {
+  border-radius: 0;
+  border: none;
+  background-color: #1b2838;
+  color: #dcdcdf;
+  box-shadow: none;
+}
+
+.card-color:hover {
+  background-color: #aacee3;
+  color: #1b2838;
+}
+
+.txt {
+  color: #2c5369;
+}
+
+.sbeam-badge {
+  display: inline-block;
+  line-height: 19px;
+  padding: 0 7px;
+  color: #67c1f5;
+  background-color: rgba(103, 193, 245, 0.2);
+  box-shadow: none;
+  margin-right: 2px;
+  border-radius: 2px;
+  margin-bottom: 3px;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 11px;
+  font-family: "Motiva Sans", sans-serif;
+  text-transform: none;
+  border: 1px solid rgba(103, 193, 245, 0.2);
+}
+
+.sbeam-badge:hover {
+  color: #ffffff;
+  background-color: #67c1f5;
+  border-color: #67c1f5;
+}
+
+.btn-index {
+  position: relative;
+  z-index: 1;
+}
+
+body.form-page {
+  background: linear-gradient(to bottom, rgba(41, 68, 91,0.85), rgba(27, 40, 56, 0.85)), 
+              url('/img/sfondo-form.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.modale{
+  color: black;
+}
+
+.price-card-show{
+    border-radius: 0;
+    background-color: #4c5b69;
+    color: white;
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 4px;
+
+}
+
+.price{
+  background-color: black;
+  padding: 6px;
+  width: 189px;
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.kart{
+  background-color: #679d1e ;
+  padding: 3px;
+  border-radius: 2px;
 }
