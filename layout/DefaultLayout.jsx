@@ -6,11 +6,19 @@ function DefaultLayout() {
     return (
 
         <>
-            <Navbar />
-            <div className="container">
-                <Outlet />
 
-            </div>
+            <header>
+                <Navbar />
+
+            </header>
+
+            <main>
+                <div className="container">
+                    <Outlet />
+
+                </div>
+            </main>
+
         </>
     )
 }
