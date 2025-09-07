@@ -12,7 +12,7 @@ function VideogameCard({ videogame }) {
                 <div className="row g-0">
                     <div className="col-12 col-md-4">
                         <div className="ratio ratio-16x9">
-                            <img src={fotoUrl} alt="Foto videogame" className="w-100 h-100 rounded-start" />
+                            <img src={fotoUrl} alt="Foto videogame" className="w-100 h-100 " />
                         </div>
                     </div>
 
@@ -22,7 +22,7 @@ function VideogameCard({ videogame }) {
                             <p className="card-text text-truncate mt-3">{description}</p>
                             <div className="d-flex justify-content-between align-items-center mt-5">
                                 <div>
-                                    <p className="card-text">{price}</p>
+                                    <p className="card-text">{price}{"\u20AC"}</p>
                                 </div>
                             </div>
                         </div>

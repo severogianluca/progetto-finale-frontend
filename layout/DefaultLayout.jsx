@@ -13,7 +13,7 @@ function DefaultLayout() {
             </header>
 
             <main>
-                <div className="container">
+                <div>
                     <Outlet />
 
                 </div>
