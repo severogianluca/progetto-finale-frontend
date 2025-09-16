@@ -26,7 +26,7 @@ function DetailVideogame() {
 
     }
 
-    useEffect(fetchVideogame, [setIsLoading])
+    useEffect(fetchVideogame, [])
 
     return (
 
