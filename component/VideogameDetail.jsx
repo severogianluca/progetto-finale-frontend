@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function VideogameDetail({videogameDetail}) {
 
-    const { name, description, fotoUrl, videoUrl, price, genres } = videogameDetail;
+    const { name, description, fotoUrl, videoUrl,releaseDate,  price, genres } = videogameDetail;
     return (
 
         <>
@@ -35,12 +35,11 @@ function VideogameDetail({videogameDetail}) {
                     <img src={fotoUrl} alt="dragonball" className="img-fluid" />
                     <p className="mt-2 small">{description}</p>
                     <div className="small d-flex gap-3">
-                        <div className="txt ">
-                            <p>Data di rilascio: </p>
+                        <div className="d-flex gap-2">
+                            <p className="txt ">Data di rilascio: </p>
+                            <p>{new Date(releaseDate).toLocaleDateString('it-IT')}</p>
                         </div>
-                        <div>
-                            {/* <p th:text="${#temporals.format(game.releaseDate, 'dd/MM/yyyy')}"></p> */}
-                        </div>
+
                     </div>
 
                     <div className="mb-3">
